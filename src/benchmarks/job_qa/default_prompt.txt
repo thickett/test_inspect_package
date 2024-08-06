@@ -1,0 +1,15 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a question answering bot.<|eot_id|>
+
+<|start_header_id|>user<|end_header_id|>
+Here is the job description:
+{{job_description}}
+
+Here are the Questions:
+=========
+Questions
+=========
+Question: {{question}}<|eot_id|>
+
+<|start_header_id|>assistant<|end_header_id|>
