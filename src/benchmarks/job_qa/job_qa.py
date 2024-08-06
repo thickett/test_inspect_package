@@ -31,7 +31,9 @@ def job_qa_task(
     return Task(
         dataset=csv_dataset(
             dataset,
-            FieldSpec(input="JobDescription", metadata=["Question"]),
+            FieldSpec(
+                input="JobDescription",
+            ),
         ),
         shuffle=shuffle,
         plan=plan,
